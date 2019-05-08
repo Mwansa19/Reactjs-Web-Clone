@@ -1,0 +1,175 @@
+#main-wrapper{
+  width: 100em;
+  height: 0;
+}
+.header{
+  background: #d6eee6;
+  padding: 40px;
+  height: 28em;
+    
+}
+#sub-header{
+  float: left;
+  position: absolute;
+  margin-left: 75px
+}
+#click input[type="Submit"]{
+  float: right;
+  margin: 25px 25px;
+  height: 30px;
+  width: 100px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: #000  
+}
+
+#textArea{   
+  margin-top:100px;
+  padding-left: 80px;
+  }
+
+#textArea input[type="Submit"]
+{
+  border: none;
+  outline: none;
+  width:250px;
+  height: 40px;
+  background: #da38cc;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px
+}
+#textArea input[type="Submit"]:hover
+{
+  cursor: pointer;
+  background: #ffc107;
+  color: #000;
+}
+.para{ 
+  float: left;
+  width: 27em;
+  height:30px
+}
+.body{
+  height: 78em;
+  margin-top: 6em
+}
+#text{
+  border: 0.1px solid #fff;
+  width: 67em;
+  height:180px;
+  position: relative;
+  padding: 5em;
+  margin: 3.5em 14em ;
+ box-shadow:  1px 2.5px 3px 3px    lightgrey;
+ border-radius: 1%;
+  
+}
+
+.txt-1{
+  clear: left;
+  width: 27em;
+  height:15px;    
+}
+.image{
+  float:right;
+  width:180px;
+  height: 260px;
+}
+.txt-2{
+  float: right;
+  width: 27em;
+  height:15px
+}
+.pic {
+  float:left;
+  width:240px;
+  height: 280px;  
+}
+
+#build{
+  border:2.5px solid #f2f2f2;
+  background-color: #fff;
+  width:33em;
+  height: 12em;  
+  margin-left:35em; 
+  position: relative;
+  border-radius: 3%;
+
+}
+#build h2{
+  text-align: center;
+  padding-top: 1.6em
+}
+.btn input[type="Submit"]
+{
+  border: none;
+  outline: none;
+  width:260px;
+  height: 50px;
+  background: #da38cc;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+  padding-left:25px;  
+}
+.btn{
+  padding-left: 6.7em
+}
+.btn input[type="Submit"]:hover
+{
+  cursor: pointer;
+  background: #ffc107;
+  color: #000;
+}
+
+#footer{
+  width: 100em;
+  height: 35em;
+  background-color:rgb(4, 37, 46);
+  color: #fff;  
+}
+.footer-huddle{
+  float: left;
+  width: 20em;
+  height:30px;
+  padding: 4.5em;
+  margin: 3em; 
+  }
+.footer-huddle, p{
+  font-size: 1.13em
+}
+.footer-abt,.footer-cnt,.social{
+  float: left;
+  width:10em;
+  height:2em;
+  padding:3.5em;
+  margin-top: 10em; 
+    
+}
+
+.footer-abt,.footer-cnt li{
+  font-size: 1.02em
+}
+#footer ul li{
+  list-style-type: none;
+  padding: 0.26em;
+}
+
+.social ul>li{
+  display: inline-block;
+  margin:0.4em;
+  border: 1px solid rgb(4, 37, 46);
+  border-radius: 50%;
+  transform: scale(1.4);
+  
+}
+
+.footer-last{
+  float: right;
+  padding-right: 6em;
+  margin-top:8.7em;   
+}
+i{
+  color: #fff
+}
